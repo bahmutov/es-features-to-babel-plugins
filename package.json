@@ -4,7 +4,9 @@
   "description": "Detected ES6 features to Babel plugins mapping",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "standard *.js",
+    "commit": "commit-wizard"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,18 @@
   "bugs": {
     "url": "https://github.com/bahmutov/es-features-to-babel-plugins/issues"
   },
-  "homepage": "https://github.com/bahmutov/es-features-to-babel-plugins#readme"
+  "homepage": "https://github.com/bahmutov/es-features-to-babel-plugins#readme",
+  "config": {
+    "pre-git": {
+      "commit-msg": ["simple"],
+      "pre-commit": ["npm run lint"],
+      "pre-push": [],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "devDependencies": {
+    "pre-git": "3.3.0",
+    "standard": "5.4.1"
+  }
 }
