@@ -1,0 +1,26 @@
+{
+  "name": "es-features-to-babel-plugins",
+  "version": "1.0.0",
+  "description": "Detected ES6 features to Babel plugins mapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/es-features-to-babel-plugins.git"
+  },
+  "keywords": [
+    "es",
+    "es6",
+    "features",
+    "babel",
+    "plugins"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/es-features-to-babel-plugins/issues"
+  },
+  "homepage": "https://github.com/bahmutov/es-features-to-babel-plugins#readme"
+}
